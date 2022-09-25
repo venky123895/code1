@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                width:250px;
+                height:250px;
+                background-color:#CCCCCC;
+                 position:relative;
+            }
+            .Child{
+                width:100px;
+                height:100px;
+                 background-color:#999999;
+                 position:absolute;
+                 bottom:0px;
+                 right:0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Main">
+            <h6>This is first div</h6>
+            <div class="Child">
+                    <h6>this is second div</h6>
+            </div>
+        </div>
+    </body>
+</html>
